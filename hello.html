@@ -1,9 +1,109 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- This is a comment -->
 <html>
     <head>
         <title>My Webpage!</title>
-        </head>
+        <style>
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 50%;
+                text-align: center;
+
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+            }
+
+            th {
+                background-color: lightgray;
+            }
+
+            #top {
+                font-size: 36px; 
+            }
+
+            #middle {
+                font-size: 24px;
+            }
+
+            #bottom {
+                font-size: 12px
+            }
+
+            .name {
+                font-weight:bold;
+            }
+
+
+        </style>
+    </head>
         <body>
-            Hello, Andreas Brown! Hello again!
+            <h1>This is the largest headline</h1>
+            <h2>This is also a large headline</h2>
+            <h3>This is a slightly smaller headline</h3>
+            <h4>This is an even smaller headline</h4>
+            <h5>This is the second-smallest headline</h5>
+            <h6>This is the smallest headline</h6>
+
+            An Unordered List:
+            <ul>
+                <li>One Item</li>
+                <li>Another Item</li>
+                <li>Yet ANother Item</li>
+            </ul>
+
+            An Ordered List:
+            <ol>
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+            </ol>
+
+            <!--<img src="andreas.jpg" height="200" width="300">-->
+            <img src="andreas.jpg"  width="10%">
+
+            <br>Hello, Andreas Brown! Hello again!
+
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Birth Year</th>
+                </tr>
+                <tr>
+                    <td>Andreas</td>
+                    <td>Brown</td>
+                    <td>1999</td>
+                </tr>
+                <tr>
+                    <td>Adrian</td>
+                    <td>Brown</td>
+                    <td>2001</td>
+                </tr>
+            </table>
+
+            <form>
+                <input type="text" placeholder="Full Name" name="name">
+                <button>Submit!</button>
+            </form>
+            <!--<h1 style="color:blue;text-align:center;">Welcome to My Web Page!</h1>-->
+            <h1 style="color:#0c8e05;text-align:center;">Welcome to My Web Page!</h1>
+            <p>Hello, world! This is a paragraph of text. </p>
+            <p>This is another paragraph!</p>
+
+            <div id="top">
+                This is the <span class="name">top</span> of my web page.
+            </div>
+            <div id="middle">
+                This is the <span class="name">middle</span> of my web page.
+            </div>
+            <div id="bottom">
+                This is the <span class="name">bottom</span> of my web page.
+            </div>
+
+
+
         </body>
 <html>
