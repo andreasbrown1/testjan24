@@ -1,0 +1,101 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.background {
+  background-image: url("schulich.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 993px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background-color: darkgray;
+    }
+}
+
+#greeting {
+    padding-top: 50px;
+    text-shadow: 2px 2px #FF0000;
+}
+
+ol > ul {
+    color: orange;
+    text-decoration: underline;
+}
+
+h4::after {
+    content: " \263a";
+    font-weight: bold;
+}
+
+h1 {
+    font-family: calibri, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px
+    font-family: calibri, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    color: gray;
+    font-size: 14px
+    font-family: calibri, sans-serif;
+    text-align: center;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+ol {
+    color: green;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+}
+
+th, td {
+border: 1px solid black;
+padding: 5px;
+width: 30%;
+}
+
+th {
+background-color: tan;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.img-container{
+    text-align: center;
+    display: block;
+}
+
+.img-container:hover img{
+    transform: scale(1.3);
+}
